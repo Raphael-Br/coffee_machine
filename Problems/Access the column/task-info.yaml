@@ -1,0 +1,29 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: "import pandas as pd\n\n\nmy_dict = {'A': {1: 1, \n                 2: 4,\
+    \ \n                 3: 6},\n           'B': {1: 2, \n                 2: 7,\n\
+    \                 3: 10},\n           'C': {1: 3, \n                 2: 11, \n\
+    \                 3: 16}}\n\nmy_df = pd.DataFrame(my_dict)\n\n# print column C\
+    \ of my_df"
+  learner_created: false
+- name: books1.csv
+  visible: true
+  learner_created: true
+- name: books3.csv
+  visible: true
+  learner_created: true
+- name: books2.csv
+  visible: true
+  learner_created: true
+- name: books4.csv
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/10939
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10939">JetBrains
+    Academy</a></html>
+  time: Thu, 29 Oct 2020 13:44:58 UTC
+record: -1
