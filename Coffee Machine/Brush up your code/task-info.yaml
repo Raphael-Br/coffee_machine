@@ -1,17 +1,6 @@
 type: edu
 custom_name: stage6
 files:
-- name: machine/coffee_machine.py
-  visible: true
-  text: |
-    print('Starting to make a coffee')
-    print('Grinding coffee beans')
-    print('Boiling water')
-    print('Mixing boiled water with crushed coffee beans')
-    print('Pouring coffee into the cup')
-    print('Pouring some milk into the cup')
-    print('Coffee is ready!')
-  learner_created: false
 - name: tests.py
   visible: false
   text: |
@@ -258,6 +247,17 @@ files:
 
     if __name__ == '__main__':
         CoffeeMachineTest('machine.coffee_machine').run_tests()
+  learner_created: false
+- name: machine/coffee_machine.py
+  visible: true
+  text: |
+    print('Starting to make a coffee')
+    print('Grinding coffee beans')
+    print('Boiling water')
+    print('Mixing boiled water with crushed coffee beans')
+    print('Pouring coffee into the cup')
+    print('Pouring some milk into the cup')
+    print('Coffee is ready!')
   learner_created: false
 feedback_link: https://hyperskill.org/projects/68/stages/371/implement
 status: Solved
